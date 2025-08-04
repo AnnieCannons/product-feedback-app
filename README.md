@@ -133,7 +133,6 @@ To start building your backend, you would navigate into your `server` folder. Th
 2. `POST /add-one-suggestion`: Save submitted form data
 3. Test your API endpoints in Postman to make sure they're working
 4. Push your code to Github
-5. Deploy your server/API to Render
 6. Submit the Render link to your deployed server to Canvas. 
 
 ---
@@ -149,7 +148,13 @@ To start building your backend, you would navigate into your `server` folder. Th
    - When there are no suggestions for the currently selected filter, show the "There is no feedback" screen 
    - View the optimal layout for the app depending on their device's screen size
 2. Push your code to Github
-3. Deploy your frontend to Netlify
+
+---
+
+### 🎯 Milestone: Deploy the Frontend to Netlify and the Server/API to Render
+
+1. Deploy your frontend code (in the `client` folder) to Netlify. Use this [Netlify deployment guide](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.jnwta4jrhylr#heading=h.scmsi7a6s9yz) to help you.
+2. Deploy your server/API code (in the `server` folder) to Render. Use this [Render deployment guide](https://github.com/AnnieCannons/countries-api-project-may-2025/blob/main/version-5/README.md) to help you. 
 
 ---
 
@@ -168,9 +173,14 @@ To start building your backend, you would navigate into your `server` folder. Th
 
 ---
 
+### 🎯 Milestone: Project Documentation 
+1. In your project's README.md file, explain what your project is about, its tech stack, how to run it, etc. A well-written README.md file is important if you intend to showcase this project on your resume or portfolio. 
+
+---
+
 ### Deploy & Submit
 1. Push your code to Github
-4. Submit to Canvas!
+4. Submit to Canvas! You're done! 🎉
 
 ---
 
