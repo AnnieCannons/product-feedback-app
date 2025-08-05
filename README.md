@@ -88,7 +88,7 @@ To start building your backend, you would navigate into your `server` folder. Th
 
 ### 🎯 Milestone: Deploy the PostgreSQL database to Neon
 
-1. Use Neon.tech to create a new Neon project called `suggestions`. Use this [Neon deployment guide](https://github.com/AnnieCannons/countries-api-project-may-2025/blob/main/version-5/README.md) to help you. 
+1. Use Neon.tech to create a new Neon project called `suggestions`. Use this [Neon deployment guide](https://github.com/AnnieCannons/countries-api-project-may-2025/blob/main/version-4/deploy-database-to-neon.md) to help you. 
 2. Set up your database on Neon (create the 1 table and insert rows of sample data)
 
 ---
