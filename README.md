@@ -66,12 +66,6 @@ To start building your backend, you would navigate into your `server` folder. Th
 
 ---
 
-### ⚙️ Fork & Clone the Github repo 
-1. Fork this Github repo into your own account. Use this [fork and clone guide](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.55gk3qetux2a#heading=h.wbbot8ebr58a) to help you.
-2. Clone your new Github repo into the `dev` folder on your local machine. 
-
----
-
 ### 🎯 Milestone: Create your database schema
 
 1. Review the [Figma designs](https://www.figma.com/design/ffyUs0kcwOG0gpe8N4BzYL/Product-Management-App?node-id=0-1&p=f&t=kSc9d10uZiSGCOFD-0) and plan/pseudo-code what data you'll need to build this application 
@@ -89,21 +83,32 @@ To start building your backend, you would navigate into your `server` folder. Th
 ### 🎯 Milestone: Deploy the PostgreSQL database to Neon
 
 1. Use Neon.tech to create a new Neon project called `suggestions`. Use this [Neon deployment guide](https://github.com/AnnieCannons/countries-api-project-may-2025/blob/main/version-4/deploy-database-to-neon.md) to help you. 
-2. Set up your database on Neon (create the 1 table and insert rows of sample data)
+2. Set up your database on Neon (create your table(s) and insert rows of sample data)
 
 ---
 
-### ⚙️ Set up your `server` folder
-1. In the terminal, `cd` into your `server` folder
-2. Review the following files already provided for you:
+### ⚙️ Fork & Clone the Github repo 
+1. Fork this Github repo into your own account. Use this [fork and clone guide](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.55gk3qetux2a#heading=h.wbbot8ebr58a) to help you.
+2. Clone your new Github repo into the `dev` folder on your local machine. 
+
+---
+
+### ⚙️ Set up your `server` folder in VS Code
+1. In VS Code, open up your `product-feedback-app` project. You should see 3 folders and files: 
+     - `client` — holds your frontend React code
+     - `server` — holds your backend server/API code
+     - `README.md` — holds the project info & instructions
+ 
+2. Open up the `server` folder. In that folder, you should see the following files already provided for you:
 
       - `package.json` — lists information about your project and its dependencies 
       - `.gitignore` — lists which files and folders that Git should ignore 
       - `src` folder — where all your custom code will live
       - `index.js` — where you will write your server/API code
       - `config.js` — contains your database's access credentials
-        
-3. In the `server` folder, run `npm install express` and `npm install pg`. Once you do that, you should see `express` and `pg` listed as dependencies in your `package.json`.
+
+3. In VS Code, open the terminal and `cd` into your `server` folder
+4. In the `server` folder, run `npm install express` and `npm install pg`. Once you do that, you should see `express` and `pg` listed as dependencies in your `package.json`.
 
 ---
 
@@ -133,8 +138,7 @@ To start building your backend, you would navigate into your `server` folder. Th
 1. `GET /get-all-suggestions`: Return all the suggestions data
 2. `POST /add-one-suggestion`: Save submitted form data
 3. Test your API endpoints in Postman to make sure they're working
-4. Push your code to Github
-6. Submit the Render link to your deployed server to Canvas. 
+4. Push your code to Github 
 
 ---
 
