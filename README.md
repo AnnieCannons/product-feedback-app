@@ -161,13 +161,14 @@ To start building your backend, you would navigate into your `server` folder. Th
 ---
 
 ### Clean and Comment your code
-1. Refactor your backend code to make it clean and modular
-2. Comment complex logic to explain how it works
+1. Clean up your code to make it clean and modular
+2. Remove unnecessary console.log() messages and unused blocks of commented-out code.
+3. Comment complex logic to explain how it works
 
 ---
 
 ### 🎯 Milestone: Project Documentation 
-1. In your project's README.md file, explain what your project is about, its tech stack, how to run it, etc. A well-written README.md file is important if you intend to showcase this project on your resume or portfolio. 
+1. In your project's README.md file, explain what your project is about, its tech stack, how to run it, etc. This is important if you intend to showcase this project on your resume or portfolio. Use this [README.md template](https://github.com/AnnieCannons/countries-api-project-may-2025/blob/main/version-5/writing-your-README.md) to help you write it! 
 
 ---
 
