@@ -124,7 +124,10 @@ These are all the technologies you should use to build your full-stack applicati
 
 ### 🎯 Milestone: Build the Frontend
 
-1. Build the frontend in the `client` folder, according to the [Figma designs](https://www.figma.com/design/ffyUs0kcwOG0gpe8N4BzYL/Product-Management-App?node-id=0-1&p=f&t=kSc9d10uZiSGCOFD-0). Users should be able to:
+1. Review the React project skeleton already provided in the `client` folder. Take a look at the `assets` folder, which has all of the icons and image assets you'll need to build the frontend. 
+2. Start by making a `pages` folder and `components` folder to hold your pages and components. 
+3. Set up your pages with React Router. You should have at least 2 pages, the Home page (where you can view all suggestions) and the AddFeedback page (which has the form to submit a suggestion). Refer to this [react-router guide](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.hbxxe6vmm0fq#heading=h.snu4ai1ffrgi) to help you.
+4. Write your code to build the frontend, according to the [Figma designs](https://www.figma.com/design/ffyUs0kcwOG0gpe8N4BzYL/Product-Management-App?node-id=0-1&p=f&t=kSc9d10uZiSGCOFD-0). Users should be able to:
 
    - View all product suggestions
    - Submit a new product suggestion by filling out a form
@@ -132,7 +135,7 @@ These are all the technologies you should use to build your full-stack applicati
    - Filter suggestions by category
    - When there are no suggestions for the currently selected filter, show the "There is no feedback" screen 
    - View the optimal layout for the app depending on their device's screen size
-2. Push your code to Github
+5. Push your code to Github
 
 ---
 
