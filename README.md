@@ -11,14 +11,19 @@ _My Company_ wants you to build a Product Feedback application, where customers 
 
 ## 🎯 Project Requirements
 
-Users should be able to:
-
-- View all suggestions on the Home page
-- Submit a new suggestion by filling out a form on the AddFeedback page
-- Receive form validations when trying to submit a new suggestion
-- Filter suggestions by category on the Home page
-- When there are no suggestions for the currently selected filter, show the "There is no feedback" screen 
-- View the optimal layout for the app depending on their device's screen size
+You will build a full-stack application with the following components:
+- **Database** — built with PostgreSQL and deployed to Neon
+- **Server/API** — built with Node and Express and deployed to Render
+- **Frontend** — built with React and deployed to Netlify
+  
+The frontend should be responsive, and there should be 2 pages:
+1. The Home page, where users can:
+     - View all suggestions 
+     - Filter suggestions by category
+     - When there are no suggestions for the currently selected filter, show the "There is no feedback" screen
+2. The AddFeedback page, where users can:
+     - Submit a new suggestion by filling out a form
+     - Receive form validations when trying to submit a new suggestion
 
 
 ## The Tech Stack
@@ -125,17 +130,19 @@ These are all the technologies you should use to build your full-stack applicati
 ### 🎯 Milestone: Build the Frontend
 
 1. Review the React project skeleton already provided in the `client` folder. Take a look at the `assets` folder, which has all of the icons and image assets you'll need to build the frontend. 
-2. Start by making a `pages` folder and `components` folder to hold your pages and components. 
-3. Set up your pages with React Router. You should have at least 2 pages, the Home page (where you can view all suggestions) and the AddFeedback page (which has the form to submit a suggestion). Refer to this [react-router guide](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.hbxxe6vmm0fq#heading=h.snu4ai1ffrgi) to help you.
-4. Write your code to build the frontend, according to the [Figma designs](https://www.figma.com/design/ffyUs0kcwOG0gpe8N4BzYL/Product-Management-App?node-id=0-1&p=f&t=kSc9d10uZiSGCOFD-0). Users should be able to:
-
-   - View all suggestions on the Home page
-   - Submit a new suggestion by filling out a form on the AddFeedback page
-   - Receive form validations when trying to submit a new suggestion
-   - Filter suggestions by category on the Home page
-   - When there are no suggestions for the currently selected filter, show the "There is no feedback" screen 
-   - View the optimal layout for the app depending on their device's screen size
-5. Push your code to Github
+2. Start by making a `pages` folder and `components` folder to hold your pages and components. You should have  2 pages, the Home page (where you can view all suggestions) and the AddFeedback page (which has the form to submit a new suggestion).
+3. Set up your routes to your pages with React Router. Refer to this [react-router guide](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.hbxxe6vmm0fq#heading=h.snu4ai1ffrgi) to help you.
+4. Write your code to build the frontend, according to the [Figma designs](https://www.figma.com/design/ffyUs0kcwOG0gpe8N4BzYL/Product-Management-App?node-id=0-1&p=f&t=kSc9d10uZiSGCOFD-0). The frontend should be responsive, and there should be 2 pages:
+   
+     - The Home page, where users can:
+          - View all suggestions 
+          - Filter suggestions by category
+          - When there are no suggestions for the currently selected filter, show the "There is no feedback" screen
+     - The AddFeedback page, where users can:
+          - Submit a new suggestion by filling out a form
+          - Receive form validations when trying to submit a new suggestion
+            
+6. Push your code to Github
 
 ---
 
@@ -182,3 +189,4 @@ Finished the main requirements? Here are some bonus challenges:
 - 🏆 Edit an existing suggestion
 - 🏆 Delete an existing suggestion
 - 🏆 Add comments to an existing suggestion
+- 🏆 Implement multi-filtering
