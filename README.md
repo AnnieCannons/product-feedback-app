@@ -20,7 +20,6 @@ Users should be able to:
 - When there are no suggestions for the currently selected filter, show the "There is no feedback" screen 
 - View the optimal layout for the app depending on their device's screen size
 
----
 
 ## The Tech Stack
 
@@ -32,14 +31,14 @@ These are all the technologies you should use to build your full-stack applicati
 | Server/API | Node.js     | Express       | Render    | Postman for API testing |
 | Database  | PostgreSQL |               | Neon    |   |
 
----
+
 
 ## 🔗 Resources
 
 - **Designs:** You will need to use this [Figma file](https://www.figma.com/design/ffyUs0kcwOG0gpe8N4BzYL/Product-Management-App?node-id=0-1&p=f&t=kSc9d10uZiSGCOFD-0) for the designs
 - **Documentation Guides:** The teaching team at AnnieCannons has provided some [handy guides](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.0#heading=h.ykdbmvmlp0ag) to help you use Github and other coding tools
 
----
+
 
 ## 📝 Tips for building your project
 
@@ -48,17 +47,6 @@ These are all the technologies you should use to build your full-stack applicati
 3. **Comment your code generously — Future You will thank you.** You’ll be building on top of this project over the next 3 months, so help yourself out by writing clear, helpful comments that explain what your code is doing. Trust us, it will save you time and confusion later.
 4. **Clean up your code as you go**. Rename confusing variables, remove unused code, and organize your logic. Your code should read like a newspaper: clear, easy to follow, and understandable at a glance.
 
----
-
-## Recommended Folder Structure
-
-We recommend starting by creating two folders in your `product-feedback-app` repo: 
-1. `client`: This folder holds your frontend that you will build with Javascript & React. 
-2. `server`: This folder holds your backend that you will build with Node.js & Express.
-
-To start building your frontend, you would navigate into your `client` folder, and start your React project by making a new Vite project with `npm create vite@latest`. 
-
-To start building your backend, you would navigate into your `server` folder. Then run `npm init` to initialize your `package.json` file, and install any npm packages you want. Then create a `src` folder, which would hold your `index.js` file and `database-schema.sql` file. 
 
 ---
 
@@ -94,7 +82,7 @@ To start building your backend, you would navigate into your `server` folder. Th
 ---
 
 ### ⚙️ Set up your `server` folder in VS Code
-1. In VS Code, open up your `product-feedback-app` project. You should see 3 folders and files: 
+1. In VS Code, open up your `product-feedback-app` project. You should see 3 folders and files already provided for you: 
      - `client` — holds your frontend React code
      - `server` — holds your backend server/API code
      - `README.md` — holds the project info & instructions
@@ -108,7 +96,11 @@ To start building your backend, you would navigate into your `server` folder. Th
       - `config.js` — contains your database's access credentials
 
 3. In VS Code, open the terminal and `cd` into your `server` folder
-4. In the `server` folder, run `npm install express` and `npm install pg`. Once you do that, you should see `express` and `pg` listed as dependencies in your `package.json`.
+4. In the `server` folder, run `npm install express` and `npm install pg`. 
+
+     Once you do that, you should see `express` and `pg` listed as dependencies in your `package.json`. 
+
+     You should see your `node_modules` folder was generated. This folder contains all of the code from your project's dependencies. 
 
 ---
 
