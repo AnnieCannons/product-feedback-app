@@ -11,7 +11,7 @@ _My Company_ wants you to build a Product Feedback application, where customers 
 
 ## 🎯 Project Requirements
 
-You will build a full-stack application with the following components:
+You will build the 3 parts of a full-stack application:
 - **Database** — built with PostgreSQL and deployed to Neon
 - **Server/API** — built with Node and Express and deployed to Render
 - **Frontend** — built with React and deployed to Netlify
