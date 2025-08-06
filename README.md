@@ -13,10 +13,10 @@ _My Company_ wants you to build a Product Feedback application, where customers 
 
 Users should be able to:
 
-- View all product suggestions
-- Submit a new product suggestions by filling out a form
+- View all suggestions on the Home page
+- Submit a new suggestion by filling out a form on the AddFeedback page
 - Receive form validations when trying to submit a new suggestion
-- Filter suggestions by category
+- Filter suggestions by category on the Home page
 - When there are no suggestions for the currently selected filter, show the "There is no feedback" screen 
 - View the optimal layout for the app depending on their device's screen size
 
@@ -129,10 +129,10 @@ These are all the technologies you should use to build your full-stack applicati
 3. Set up your pages with React Router. You should have at least 2 pages, the Home page (where you can view all suggestions) and the AddFeedback page (which has the form to submit a suggestion). Refer to this [react-router guide](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.hbxxe6vmm0fq#heading=h.snu4ai1ffrgi) to help you.
 4. Write your code to build the frontend, according to the [Figma designs](https://www.figma.com/design/ffyUs0kcwOG0gpe8N4BzYL/Product-Management-App?node-id=0-1&p=f&t=kSc9d10uZiSGCOFD-0). Users should be able to:
 
-   - View all product suggestions
-   - Submit a new product suggestion by filling out a form
+   - View all suggestions on the Home page
+   - Submit a new suggestion by filling out a form on the AddFeedback page
    - Receive form validations when trying to submit a new suggestion
-   - Filter suggestions by category
+   - Filter suggestions by category on the Home page
    - When there are no suggestions for the currently selected filter, show the "There is no feedback" screen 
    - View the optimal layout for the app depending on their device's screen size
 5. Push your code to Github
