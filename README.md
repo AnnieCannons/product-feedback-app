@@ -100,7 +100,7 @@ These are all the technologies you should use to build your full-stack applicati
 
      Once you do that, you should see `express` and `pg` listed as dependencies in your `package.json`. 
 
-     You should see your `node_modules` folder was generated. This folder contains all of the code from your project's dependencies. 
+     You should also see your `node_modules` folder was generated. This folder contains all of the code from your project's dependencies. 
 
 ---
 
