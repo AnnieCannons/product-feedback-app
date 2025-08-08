@@ -148,8 +148,7 @@ These are all the technologies you should use to build your full-stack applicati
 
 ### 🎯 Milestone: Deploy the Frontend to Netlify and the Server/API to Render
 
-1. Deploy your frontend code (in the `client` folder) to Netlify. Use this [Netlify deployment guide](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.jnwta4jrhylr#heading=h.scmsi7a6s9yz) to help you.
-2. Deploy your server/API code (in the `server` folder) to Render. Use this [Render deployment guide](https://github.com/AnnieCannons/countries-api-project-may-2025/blob/main/version-5/deploy-server-to-render.md) to help you. 
+2. Deploy your server/API code (in the `server` folder) to Render, and your frontend code (in the `client` folder) to Netlify. Use this [Render deployment guide](https://github.com/AnnieCannons/countries-api-project-may-2025/blob/main/version-5/deploy-server-to-render.md) to help you. 
 
 ---
 
