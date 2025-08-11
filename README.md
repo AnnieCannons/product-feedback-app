@@ -6,6 +6,8 @@ Imagine you are starting out as a freelance full-stack developer. You've just be
 
 _My Company_ wants you to build a Product Feedback application, where customers can view and submit feedback about how their product could be improved. 
 
+[View the live project demo](https://product-feedback-app-2025.netlify.app/) ✨
+
 ![image](https://github.com/user-attachments/assets/5fabe48e-fb2b-4337-94cc-515e64a0bf66)
 
 
