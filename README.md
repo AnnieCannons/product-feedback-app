@@ -42,7 +42,7 @@ These are all the technologies you should use to build your full-stack applicati
 
 ## 🔗 Resources
 
-- **Designs:** You will need to use this [Figma file](https://www.figma.com/design/ffyUs0kcwOG0gpe8N4BzYL/Product-Management-App?node-id=0-1&p=f&t=kSc9d10uZiSGCOFD-0) for the designs
+- **Designs:** You will need to use this [Figma file](https://www.figma.com/design/vxjX8SdBOt21DCD14mrBM9/Product-Feedback-App-Design?node-id=0-1&t=OH1BSnaLrvNeWMlQ-1) for the designs
 - **Documentation Guides:** The teaching team at AnnieCannons has provided some [handy guides](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.0#heading=h.ykdbmvmlp0ag) to help you use Github and other coding tools
 
 
@@ -63,7 +63,7 @@ These are all the technologies you should use to build your full-stack applicati
 
 ### 🎯 Milestone: Create your database schema
 
-1. Review the [Figma designs](https://www.figma.com/design/ffyUs0kcwOG0gpe8N4BzYL/Product-Management-App?node-id=0-1&p=f&t=kSc9d10uZiSGCOFD-0) and plan/pseudo-code what data you'll need to build this application 
+1. Review the [Figma designs](https://www.figma.com/design/vxjX8SdBOt21DCD14mrBM9/Product-Feedback-App-Design?node-id=0-1&t=OH1BSnaLrvNeWMlQ-1) and plan/pseudo-code what data you'll need to build this application 
 2. [Fork this DB Fiddle](https://www.db-fiddle.com/f/mDJ76U1Xpi8ZR79RqDgYny/0)
 3. Write PostgreSQL code to create your table(s)
 4. Insert at least 3 rows of sample data into each table
@@ -134,7 +134,7 @@ These are all the technologies you should use to build your full-stack applicati
 1. Review the React project skeleton already provided in the `client` folder. Take a look at the `assets` folder, which has all of the icons and image assets you'll need to build the frontend. 
 2. Start by making a `pages` folder and `components` folder to hold your pages and components. You should have  2 pages, the Home page (where you can view all suggestions) and the AddFeedback page (which has the form to submit a new suggestion).
 3. Set up your routes to your pages with React Router. Refer to this [react-router guide](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.hbxxe6vmm0fq#heading=h.snu4ai1ffrgi) to help you.
-4. Write your code to build the frontend, according to the [Figma designs](https://www.figma.com/design/ffyUs0kcwOG0gpe8N4BzYL/Product-Management-App?node-id=0-1&p=f&t=kSc9d10uZiSGCOFD-0). The frontend should be responsive, and there should be 2 pages:
+4. Write your code to build the frontend, according to the [Figma designs](https://www.figma.com/design/vxjX8SdBOt21DCD14mrBM9/Product-Feedback-App-Design?node-id=0-1&t=OH1BSnaLrvNeWMlQ-1). The frontend should be responsive, and there should be 2 pages:
    
      - The Home page, where users can:
           - View all suggestions 
