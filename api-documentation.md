@@ -6,8 +6,8 @@ Base URL: `https://REPLACE-THIS-WITH-YOUR-DEPLOYED-URL.onrender.com`
 
 | Resource         | Method | Endpoint                   | Description                                           |
 |------------------|--------|----------------------------|-------------------------------------------------------|
-| `suggestions`    | GET    | /get-all-suggestions       | _________________________                             |
-| `suggestions`    | POST   | /add-one-suggestion        | _________________________                             |
+| `suggestions`    | GET    | /get-all-suggestions       | ___________________                             |
+| `suggestions`    | POST   | /add-one-suggestion        | ___________________                             |
 
 ---
 
@@ -28,7 +28,7 @@ Use spaces/indents to format the data if it is an array or object.
 
 ### 🔹 POST `/add-one-suggestion`
 
-**Description:** _________________________
+**Description:** ___________________
 
 **Example Request Body:**
 
