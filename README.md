@@ -61,7 +61,13 @@ These are all the technologies you should use to build your full-stack applicati
 
 ---
 
-### 🎯 Milestone: Create your SQL database schema
+### 🎯 Milestone 1: Write API Documentation
+
+1. Use this template to write your API Documentation, where you'll describe all your API endpoints. 
+
+---
+
+### 🎯 Milestone 2: Create Database Schema
 
 1. Review the [Figma designs](https://www.figma.com/design/vxjX8SdBOt21DCD14mrBM9/Product-Feedback-App-Design?node-id=0-1&t=OH1BSnaLrvNeWMlQ-1) and plan/pseudo-code what data you'll need to build this application 
 2. [Fork this DB Fiddle](https://www.db-fiddle.com/f/mDJ76U1Xpi8ZR79RqDgYny/0)
@@ -75,7 +81,7 @@ These are all the technologies you should use to build your full-stack applicati
    
 ---
 
-### 🎯 Milestone: Deploy the PostgreSQL database to Neon
+### 🎯 Milestone 3: Deploy Database to Neon
 
 1. Use Neon.tech to create a new Neon project called `suggestions`. Use this [Neon deployment guide](https://github.com/AnnieCannons/countries-api-project-may-2025/blob/main/version-4/deploy-database-to-neon.md) to help you. 
 2. Set up your database on Neon (create your table(s) and insert rows of sample data)
@@ -121,7 +127,7 @@ These are all the technologies you should use to build your full-stack applicati
 
 ---
 
-### 🎯 Milestone: Build the server/API
+### 🎯 Milestone 4: Build the server/API
 1. Build your API endpoints and helper functions:
   - `GET /get-all-suggestions`: Return all the suggestions data
   - `POST /add-one-suggestion`: Save submitted form data
@@ -130,7 +136,7 @@ These are all the technologies you should use to build your full-stack applicati
 
 ---
 
-### 🎯 Milestone: Build the Frontend
+### 🎯 Milestone 5: Build the Frontend
 
 1. Review the React project skeleton already provided in the `client` folder. Take a look at the `assets` folder, which has all of the icons and image assets you'll need to build the frontend. 
 2. Start by making a `pages` folder and `components` folder to hold your pages and components. You should have 2 pages, the Home page (where you can view all suggestions) and the AddFeedback page (which has the form to submit a new suggestion).
@@ -149,7 +155,7 @@ These are all the technologies you should use to build your full-stack applicati
 
 ---
 
-### 🎯 Milestone: Deploy the Frontend to Netlify and the Server/API to Render
+### 🎯 Milestone 6: Deploy the Frontend to Netlify and the Server/API to Render
 
 2. Deploy your server/API code (in the `server` folder) to Render, and your frontend code (in the `client` folder) to Netlify. Use this [Render deployment guide](https://github.com/AnnieCannons/countries-api-project-may-2025/blob/main/version-5/deploy-server-to-render.md) to help you. 
 
@@ -171,14 +177,14 @@ These are all the technologies you should use to build your full-stack applicati
 
 ---
 
-### 🎯 Milestone: Project Documentation 
+### README.md Project Documentation 
 1. In your project's README.md file, explain what your project is about, its tech stack, how to run it, etc. This is important if you intend to showcase this project on your resume or portfolio. Use this [README.md template](https://github.com/AnnieCannons/countries-api-project-may-2025/blob/main/version-5/writing-your-README.md) to help you write it! 
 
 ---
 
-### Deploy & Submit
+### 🎯 Final Milestone: App complete!
 1. Push your code to Github
-4. Submit to Canvas! You're done! 🎉
+4. Submit your Github repo link and Netlify link to Canvas! You're done! 🎉
 
 ---
 
@@ -187,6 +193,7 @@ These are all the technologies you should use to build your full-stack applicati
 Finished the main requirements? Here are some bonus challenges:
 
 - 🏆 Upvote product suggestions
+- 🏆 Add a hamburger menu in mobile view
 - 🏆 Sort suggestions by most/least upvotes and most/least comments
 - 🏆 Edit an existing suggestion
 - 🏆 Delete an existing suggestion
