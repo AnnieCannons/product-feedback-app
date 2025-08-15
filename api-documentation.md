@@ -40,7 +40,7 @@ Think about what its data type should be (String, Object, Array of Objects, etc.
 
 **Example Response:**
 
-```
+```json
 What should this endpoint send back in its response? 
 Write what the response should look like here.
 Think about what its data type should be (String, Object, Array of Objects, etc.)
