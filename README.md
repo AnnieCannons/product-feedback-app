@@ -63,7 +63,8 @@ These are all the technologies you should use to build your full-stack applicati
 
 ### 🎯 Milestone 1: Write API Documentation
 
-1. Use this template to write your API Documentation, where you'll describe all your API endpoints. 
+1. Fill in the blanks in the api-documentation.md file to describe your project's API endpoints.
+2. Refer to the [Countries API Documentation](https://github.com/AnnieCannons/countries-api-project-may-2025/blob/main/version-3/api-documentation.md) as an example of what a finished doc should look like. 
 
 ---
 
