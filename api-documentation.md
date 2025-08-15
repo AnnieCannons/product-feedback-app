@@ -1,19 +1,19 @@
 # 📘 Product Feedback API Documentation
 
-Base URL: `https://replace-this-URL-once-you-deploy-API-to-render.onrender.com`
+Base URL: `https://REPLACE-THIS-WITH-YOUR-DEPLOYED-URL.onrender.com`
 
 ## Overview
 
 | Resource         | Method | Endpoint                   | Description                                           |
 |------------------|--------|----------------------------|-------------------------------------------------------|
-| `suggestions`    | GET    | /get-all-suggestions       | Retrieves all suggestions                             |
-| `suggestions`    | POST   | /add-one-suggestion        | Adds a new suggestion                                 |
+| `suggestions`    | GET    | /get-all-suggestions       | _________________________                             |
+| `suggestions`    | POST   | /add-one-suggestion        | _________________________                             |
 
 ---
 
 ### 🔹 GET `/get-all-suggestions`
 
-**Description:** Retrieves all suggestions.
+**Description:** ___________________
 
 **Example Response:**
 
@@ -28,7 +28,7 @@ Think about what its data type should be (String, Object, Array of Objects, etc.
 
 ### 🔹 POST `/add-one-suggestion`
 
-**Description:** Adds a new suggestion. 
+**Description:** _________________________
 
 **Example Request Body:**
 
