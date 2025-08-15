@@ -6,8 +6,8 @@ Base URL: `https://replace-this-URL-once-you-deploy-API-to-render.onrender.com`
 
 | Resource         | Method | Endpoint                   | Description                                           |
 |------------------|--------|----------------------------|-------------------------------------------------------|
-| `table_name`     | GET    | /get-all-suggestions       | Retrieves all suggestions                             |
-| `table_name`     | POST   | /add-one-suggestion        | Adds a new suggestion                                 |
+| `suggestions`    | GET    | /get-all-suggestions       | Retrieves all suggestions                             |
+| `suggestions`    | POST   | /add-one-suggestion        | Adds a new suggestion                                 |
 
 ---
 
