@@ -17,11 +17,10 @@ Base URL: `https://REPLACE-THIS-WITH-YOUR-DEPLOYED-URL.onrender.com`
 
 **Example Response:**
 
-```json
+```
 Write the data returned by this endpoint. 
 Think about its data type (String, Object, Array of Objects, etc.)
 Use spaces/indents to format the data if it is an array or object. 
-
 ```
 
 ---
@@ -32,7 +31,7 @@ Use spaces/indents to format the data if it is an array or object.
 
 **Example Request Body:**
 
-```json
+```
 Write the data required in the request body. 
 Think about its data type (String, Object, Array of Objects, etc.)
 Use spaces/indents to format the data if it is an array or object. 
@@ -40,7 +39,7 @@ Use spaces/indents to format the data if it is an array or object.
 
 **Example Response:**
 
-```json
+```
 Write the data returned by this endpoint. 
 Think about its data type (String, Object, Array of Objects, etc.)
 Use spaces/indents to format the data if it is an array or object. 
