@@ -117,22 +117,23 @@ These are all the technologies you should use to build your full-stack applicati
 ---
 
 ### ⚙️ Set up your server's boilerplate code 
-1. In your server's `index.js` file, set up your server using the same boilerplate code as the `06-recipe-API-server-SQL` project or your `version-4` of the Countries API project. 
+1. In your server's `index.js` file, set up your server using the same boilerplate code as your `version-4` of the Countries API project. 
 
 ---
 
 ### 🎯 Milestone: Build the server/API
-1. `GET /get-all-suggestions`: Return all the suggestions data
-2. `POST /add-one-suggestion`: Save submitted form data
-3. Test your API endpoints in Postman to make sure they're working
-4. Push your code to Github 
+1. Build your API endpoints and helper functions:
+  - `GET /get-all-suggestions`: Return all the suggestions data
+  - `POST /add-one-suggestion`: Save submitted form data
+2. Test your API endpoints in Postman to make sure they're working
+3. Push your code to Github 
 
 ---
 
 ### 🎯 Milestone: Build the Frontend
 
 1. Review the React project skeleton already provided in the `client` folder. Take a look at the `assets` folder, which has all of the icons and image assets you'll need to build the frontend. 
-2. Start by making a `pages` folder and `components` folder to hold your pages and components. You should have  2 pages, the Home page (where you can view all suggestions) and the AddFeedback page (which has the form to submit a new suggestion).
+2. Start by making a `pages` folder and `components` folder to hold your pages and components. You should have 2 pages, the Home page (where you can view all suggestions) and the AddFeedback page (which has the form to submit a new suggestion).
 3. Set up your routes to your pages with React Router. Refer to this [react-router guide](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.hbxxe6vmm0fq#heading=h.snu4ai1ffrgi) to help you.
 4. Write your code to build the frontend, according to the [Figma designs](https://www.figma.com/design/vxjX8SdBOt21DCD14mrBM9/Product-Feedback-App-Design?node-id=0-1&t=OH1BSnaLrvNeWMlQ-1). The frontend should be responsive, and there should be 2 pages:
    
@@ -144,7 +145,7 @@ These are all the technologies you should use to build your full-stack applicati
           - Submit a new suggestion by filling out a form
           - Receive form validations when trying to submit a new suggestion
             
-6. Push your code to Github
+5. Push your code to Github
 
 ---
 
