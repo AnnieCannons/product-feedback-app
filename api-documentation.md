@@ -18,9 +18,9 @@ Base URL: `https://REPLACE-THIS-WITH-YOUR-DEPLOYED-URL.onrender.com`
 **Example Response:**
 
 ```json
-What should this endpoint send back in its response? 
-Write what the response should look like here.
-Think about what its data type should be (String, Object, Array of Objects, etc.)
+Write the data returned by this endpoint. 
+Think about its data type (String, Object, Array of Objects, etc.)
+Use spaces/indents to format the data if it is an array or object. 
 
 ```
 
@@ -33,17 +33,17 @@ Think about what its data type should be (String, Object, Array of Objects, etc.
 **Example Request Body:**
 
 ```json
-What data needs to be included in the request body? 
-Write what the response body should look like here.
-Think about what its data type should be (String, Object, Array of Objects, etc.)
+Write the data required in the request body. 
+Think about its data type (String, Object, Array of Objects, etc.)
+Use spaces/indents to format the data if it is an array or object. 
 ```
 
 **Example Response:**
 
 ```json
-What should this endpoint send back in its response? 
-Write what the response should look like here.
-Think about what its data type should be (String, Object, Array of Objects, etc.)
+Write the data returned by this endpoint. 
+Think about its data type (String, Object, Array of Objects, etc.)
+Use spaces/indents to format the data if it is an array or object. 
 ```
 ---
 
