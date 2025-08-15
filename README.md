@@ -179,7 +179,7 @@ These are all the technologies you should use to build your full-stack applicati
 ---
 
 ### README.md Project Documentation 
-1. In your project's README.md file, explain what your project is about, its tech stack, how to run it, etc. This is important if you intend to showcase this project on your resume or portfolio. Use this [README.md template](https://github.com/AnnieCannons/countries-api-project-may-2025/blob/main/version-5/writing-your-README.md) to help you write it! 
+1. In your project's README.md file, explain what your project is about, its tech stack, how to run it, etc. This is important if you intend to showcase this project on your resume or portfolio. Use this [README.md template](https://github.com/AnnieCannons/countries-api-project-may-2025/blob/main/version-5/write-your-README.md) to help you write it! 
 
 ---
 
