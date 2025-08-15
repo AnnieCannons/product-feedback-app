@@ -61,7 +61,7 @@ These are all the technologies you should use to build your full-stack applicati
 
 ---
 
-### 🎯 Milestone: Create your database schema
+### 🎯 Milestone: Create your SQL database schema
 
 1. Review the [Figma designs](https://www.figma.com/design/vxjX8SdBOt21DCD14mrBM9/Product-Feedback-App-Design?node-id=0-1&t=OH1BSnaLrvNeWMlQ-1) and plan/pseudo-code what data you'll need to build this application 
 2. [Fork this DB Fiddle](https://www.db-fiddle.com/f/mDJ76U1Xpi8ZR79RqDgYny/0)
