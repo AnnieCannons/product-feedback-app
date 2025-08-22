@@ -21,7 +21,7 @@ You will build the 3 parts of a full-stack application:
 The frontend should be responsive, and there should be 2 pages:
 1. The Home page, where users can:
      - View all suggestions 
-     - Filter suggestions by category
+     - View suggestions filtered by category
      - When there are no suggestions for the currently selected filter, show the "There is no feedback" screen
 2. The AddFeedback page, where users can:
      - Submit a new suggestion by filling out a form
@@ -76,6 +76,7 @@ These are all the technologies you should use to build your full-stack applicati
 4. Insert at least 3 rows of sample data into each table
 5. Write the SQL queries for your API to:
      - Get all suggestions
+     - Get suggestions by category
      - Add a suggestion
 6. Bookmark the link to your DB Fiddle so you can find it later.
 7. Submit the link to your DB Fiddle on Canvas.
@@ -131,6 +132,7 @@ These are all the technologies you should use to build your full-stack applicati
 ### 🎯 Milestone 4: Build the Local Server/API
 1. Build your API endpoints and helper functions:
   - `GET /get-all-suggestions`: Return all the suggestions data
+  - `GET /get-suggestions-by-category/:category`: Return suggestions filtered by category 
   - `POST /add-one-suggestion`: Save submitted form data
 2. Test your API endpoints in Postman to make sure they're working
 3. Push your code to Github 
@@ -146,7 +148,7 @@ These are all the technologies you should use to build your full-stack applicati
    
      - The Home page, where users can:
           - View all suggestions 
-          - Filter suggestions by category
+          - View suggestions filtered by category
           - When there are no suggestions for the currently selected filter, show the "There is no feedback" screen
      - The AddFeedback page, where users can:
           - Submit a new suggestion by filling out a form
