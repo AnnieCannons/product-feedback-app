@@ -63,8 +63,14 @@ These are all the technologies you should use to build your full-stack applicati
 
 ### 🎯 Milestone 1: Write API Documentation
 
-1. Fill in the blanks in the api-documentation.md file. This is an important step in planning how your frontend and backend will communicate. Think of this document as a blueprint for the API endpoints your app will need.
-2. Refer to the [Countries API Documentation](https://github.com/AnnieCannons/countries-api-project-may-2025/blob/main/version-3/api-documentation.md) as an example of what a finished doc should look like. 
+1. In the root folder of your `product-feedback-app` Github repo, you'll find an `api-documentation.md` file.
+2. Your task is to fill in the blanks in this API documentation file using Markdown code. This is an important step in planning how your frontend and backend will communicate. Think of this document as a blueprint for the API endpoints your app will need.
+3. For each API endpoint, you will need to write:
+    - A description,
+    - An example request URL
+    - An example request body (if applicable)
+    - An example response. 
+4. Refer to the [Countries API Documentation](https://github.com/AnnieCannons/countries-app-instructions/blob/main/version-3/api-documentation.md) as an example of what a finished doc should look like. 
 
 ---
 
@@ -120,7 +126,7 @@ These are all the technologies you should use to build your full-stack applicati
 ---
 
 ### ⚙️ Connect your Neon-hosted PostgreSQL database to your Express server
-1. [Follow this guide to connect your Neon database to your Express server](https://github.com/AnnieCannons/countries-api-project-may-2025/blob/main/version-4/connect-neon-database-to-express-server.md).
+1. [Follow this guide to connect your Neon database to your Express server](https://github.com/AnnieCannons/countries-app-instructions/blob/main/version-4/connect-neon-database-to-express-server.md).
 
 ---
 
@@ -160,7 +166,7 @@ These are all the technologies you should use to build your full-stack applicati
 
 ### 🎯 Milestone 6: Deploy to Netlify and Render
 
-2. Deploy your server/API code (in the `server` folder) to Render, and your frontend code (in the `client` folder) to Netlify. Use this [Render deployment guide](https://github.com/AnnieCannons/countries-api-project-may-2025/blob/main/version-5/deploy-server-to-render.md) to help you. 
+2. Deploy your server/API code (in the `server` folder) to Render, and your frontend code (in the `client` folder) to Netlify. Use this [Render deployment guide](https://github.com/AnnieCannons/countries-app-instructions/blob/main/version-5/deploy-server-to-render.md) to help you. 
 
 ---
 
@@ -181,7 +187,7 @@ These are all the technologies you should use to build your full-stack applicati
 ---
 
 ### README.md Project Documentation 
-1. In your project's README.md file, explain what your project is about, its tech stack, how to run it, etc. This is important if you intend to showcase this project on your resume or portfolio. Use this [README.md template](https://github.com/AnnieCannons/countries-api-project-may-2025/blob/main/version-5/write-your-README.md) to help you write it! 
+1. In your project's README.md file, explain what your project is about, its tech stack, how to run it, etc. This is important if you intend to showcase this project on your resume or portfolio. Use this [README.md template](https://github.com/AnnieCannons/countries-app-instructions/blob/main/version-5/write-your-README.md) to help you write it! 
 
 ---
 
