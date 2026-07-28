@@ -1,0 +1,216 @@
+# Product Feedback App — AI-Assisted Track
+
+## 👋 Welcome!
+
+Imagine you are starting out as a freelance full-stack developer. You've just been hired by your first new client: a startup that is building a new product. The startup is generically named _My Company_.
+
+_My Company_ wants you to build a Product Feedback application, where customers can view and submit feedback about how their product could be improved.
+
+[View the live project demo](https://product-feedback-app-2025.netlify.app/) ✨
+
+![image](https://github.com/user-attachments/assets/5fabe48e-fb2b-4337-94cc-515e64a0bf66)
+
+**This is the AI-assisted track of the same project.** The end result — a deployed, working Product Feedback app matching the requirements below — is identical to the standard track. What's different is *how* you get there: instead of hand-writing every line, you'll direct an AI coding agent (e.g. the agent built into your IDE) through a Product Requirements Document (PRD), then take full ownership of testing, fixing, and auditing what it produces.
+
+**The AI agent is not a shortcut around understanding your code.** You are still responsible for every line that ships — you should be able to explain any part of it on request.
+
+---
+
+## 🎯 Project Requirements
+
+You will build the 3 parts of a full-stack application:
+- **Database** — built with PostgreSQL and deployed to Neon
+- **Server/API** — built with Node and Express and deployed to Render
+- **Frontend** — built with React and deployed to Netlify
+
+The frontend should be responsive, and there should be 2 pages:
+1. The Home page, where users can:
+     - View all suggestions
+     - View suggestions filtered by category
+     - When there are no suggestions for the currently selected filter, show the "There is no feedback" screen
+2. The AddFeedback page, where users can:
+     - Submit a new suggestion by filling out a form
+     - Receive form validations when trying to submit a new suggestion
+
+## The Tech Stack
+
+| Component | Language | Framework | Deployment | Dev Tools |
+|-----------|------------|----------------|------------|-------|
+| Frontend  | HTML, CSS, JavaScript | React         | Netlify   | |
+| Server/API | Node.js     | Express       | Render    | Postman for API testing |
+| Database  | PostgreSQL |               | Neon    | |
+
+## 🔗 Resources
+
+- **Designs:** [Figma file](https://www.figma.com/design/vxjX8SdBOt21DCD14mrBM9/Product-Feedback-App-Design?node-id=0-1&t=OH1BSnaLrvNeWMlQ-1)
+- **Documentation Guides:** [AnnieCannons Github & tooling guides](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.0#heading=h.ykdbmvmlp0ag)
+- **Neon deployment guide:** [Deploy database to Neon](https://github.com/AnnieCannons/countries-api-project-may-2025/blob/main/version-4/deploy-database-to-neon.md)
+- **Render deployment guide:** [Deploy server to Render](https://github.com/AnnieCannons/countries-app-instructions/blob/main/version-5/deploy-server-to-render.md)
+
+---
+
+## ✅ Deliverables
+
+Submit the following to the LMS:
+
+1. **Your PRD** (as a doc link or a file in your repo)
+2. **Link to your Github repo**
+3. **Link to your deployment** (frontend URL — include your Render API URL and Neon project name in your README)
+4. **Lighthouse score** (screenshot or exported report — see Milestone 8)
+5. **A robust README** with full project documentation (see Milestone 9)
+6. **AI usage log** — a short section in your README, or a separate `AI_LOG.md`, noting which tool(s) you used and roughly what you prompted for at each milestone. 
+7. **Code walkthrough readiness** — no separate deliverable, but read through your code thoroughly to understand it as if you were going to present it to your team at work.
+
+---
+
+## 🚀 Roadmap: Step-by-step guide to building this project (AI-assisted)
+
+---
+
+### 🎯 Milestone 1: Write your PRD (Product Requirements Document)
+
+Before starting your project, have Claude or another AI write a PRD that fully specifies what you're building. 
+
+Your PRD should cover:
+- **Overview** — what the app does and who it's for (adapt the intro above)
+- **Pages & user flows** — Home page and AddFeedback page, with every interaction spelled out (filtering, empty state, form validation rules, etc.)
+- **Data model** — what a "suggestion" record needs (fields, types, categories)
+- **API endpoints** — method, path, request/response shape for each endpoint you'll need (get all suggestions, get by category, add one)
+- **Tech stack & deployment targets** — Neon, Render, Netlify
+- **Design reference** — link to the [Figma file](https://www.figma.com/design/vxjX8SdBOt21DCD14mrBM9/Product-Feedback-App-Design?node-id=0-1&t=OH1BSnaLrvNeWMlQ-1) and any notes on responsive behavior, or send screenshots to the AI
+- **Out of scope** — explicitly note what you are *not* building yet (helps stop the agent from over-building)
+
+Refer to the [Countries API Documentation](https://github.com/AnnieCannons/countries-app-instructions/blob/main/version-3/api-documentation.md) as a model for how precise your API section should be.
+
+---
+
+### 🎯 Milestone 2: Set up your repo with an AI agent
+
+1. Fork this Github repo into your own account. Use this [fork and clone guide](https://docs.google.com/document/d/18jxCUA0bebCyYaIHy8aaKMgOQH4w5-b-iCGDWpV4K4M/edit?tab=t.55gk3qetux2a#heading=h.wbbot8ebr58a) to help you.
+2. Clone your new Github repo into your `dev` folder.
+3. Open the project in your IDE and let the **AI agent** (not you, manually) scaffold the root project structure — `client` and `server` folders, `package.json` files, `.gitignore`, etc. — based on your PRD's tech stack section.
+4. Review what the agent created before moving on. Confirm it matches what your PRD asked for.
+
+---
+
+### 🎯 Milestone 3: Re-read your PRD before feeding it to the agent
+
+Do not skip this step. Read your entire PRD top to bottom as if you were the AI agent about to implement it:
+- Is every field, endpoint, and interaction unambiguous?
+- Could two different developers read this and build the same thing?
+- Are there gaps the agent will have to guess at?
+
+Fix anything unclear now — it's much cheaper to fix a sentence in your PRD than to debug a wrong assumption baked into generated code.
+
+---
+
+### 🎯 Milestone 4: Feed your PRD to the agent and build in stages
+
+Don't ask the agent to build the whole app in one shot. Work through it in the same order as the standard track, reviewing output at each step:
+
+1. **Database** — have the agent generate the SQL schema from your PRD's data model. Insert at least 3 rows of sample data. Deploy to Neon (project name `suggestions`) using the [Neon deployment guide](https://github.com/AnnieCannons/countries-api-project-may-2025/blob/main/version-4/deploy-database-to-neon.md).
+2. **Server/API** — have the agent build the endpoints from your PRD's API section:
+   - `GET /get-all-suggestions`
+   - `GET /get-suggestions-by-category/:category`
+   - `POST /add-one-suggestion`
+
+   Test every endpoint yourself in Postman — don't trust the agent's claim that it works. Push to Github.
+3. **Frontend** — have the agent build the Home and AddFeedback pages per your PRD and the Figma designs. Push to Github.
+
+Commit and push after each stage, not just at the end — you want a history you can point to if something breaks.
+
+---
+
+### 🎯 Milestone 5: Full testing
+
+Test every user flow yourself, manually, in the browser:
+- Viewing all suggestions
+- Filtering suggestions by category
+- The empty-state screen when a filter has no results
+- Submitting a new suggestion, including form validation (missing fields, invalid input)
+- Refresh the page and check your database directly to confirm data is actually persisting
+
+Log any bugs you find — you'll fix them in the next step.
+
+---
+
+### 🎯 Milestone 6: Fix the UI
+
+Compare your rendered app side-by-side with the [Figma designs](https://www.figma.com/design/vxjX8SdBOt21DCD14mrBM9/Product-Feedback-App-Design?node-id=0-1&t=OH1BSnaLrvNeWMlQ-1). AI-generated UI code frequently drifts from spacing, color, and responsive-behavior specs — fix any mismatches, and check your layout at mobile, tablet, and desktop widths.
+
+---
+
+### 🎯 Milestone 7: Accessibility and security audits
+
+**Accessibility audit:**
+- Run Lighthouse's Accessibility check (or the axe browser extension) against both pages
+- Check for: alt text on images, proper form labels, sufficient color contrast, keyboard navigability, semantic HTML
+- Fix what you find
+
+**Security audit:**
+- Confirm no secrets (database credentials, API keys) are committed to Github — check your `.gitignore` covers `.env` and `config.js` if it holds credentials
+- Confirm your API validates and sanitizes input server-side (not just in the frontend form) to guard against bad or malicious data
+- Confirm your database queries use parameterized queries, not raw string concatenation, to prevent SQL injection
+- Check CORS is configured to your actual frontend origin, not left wide open
+
+---
+
+### 🎯 Milestone 8: Deploy and run Lighthouse
+
+1. Deploy your server/API to Render and your frontend to Netlify. Use the [Render deployment guide](https://github.com/AnnieCannons/countries-app-instructions/blob/main/version-5/deploy-server-to-render.md).
+2. Re-test all user flows against your live, deployed URLs (not just localhost).
+3. Run Lighthouse against your deployed frontend (Chrome DevTools → Lighthouse tab). Save the report or a screenshot of the scores (Performance, Accessibility, Best Practices, SEO) — this is one of your deliverables.
+4. If your Performance or Accessibility score is low, go back and fix what Lighthouse flags before submitting.
+
+---
+
+### 🎯 Milestone 9: Write your README
+
+Your README should explain what your project is about, its tech stack, how to run it locally, and links to your live deployment. Use the [README.md template](https://github.com/AnnieCannons/countries-app-instructions/blob/main/version-5/write-your-README.md) as a starting point. If you're keeping an AI usage log, link or embed it here too.
+
+---
+
+### 🎯 Final Milestone: Submit
+
+1. Push your final code to Github.
+2. Submit to the LMS: your PRD, your Github repo link, your deployment link, your Lighthouse score, and your README.
+
+---
+
+## 💡 Tips for working with an AI agent
+
+1. **Treat the PRD as the contract, not a suggestion.** The more precise it is, the less the agent has to guess — and the less you'll have to redo.
+2. **Review every diff before accepting it.** Don't accept agent-generated code you haven't read and understood. If you can't explain what a block of code does, stop and ask the agent to explain it before moving on.
+3. **Work in small stages, like the milestones above.** Asking for the whole app at once makes broken output much harder to debug.
+4. **Commit often.** A clean commit history per milestone makes it easy to isolate when something broke.
+5. **You should understand the project and be working on how to write better prompts.** You are working with the AI, it is not working for you.
+
+---
+
+## 📋 Deliverables Checklist
+
+| Category | What "done" looks like |
+|---|---|
+| PRD quality | PRD is complete, unambiguous, and covers data model, API, pages/flows, and design reference. Someone else could implement it without guessing. |
+| Functional requirements | Both pages work exactly as specified: viewing, filtering, empty state, submission with validation. All 3 tiers (DB, API, frontend) are integrated correctly. |
+| Testing evidence | Clear evidence (notes, commits, bug log) that all user flows were manually tested, both locally and post-deployment. |
+| UI fidelity & responsiveness | Matches Figma designs; works cleanly at mobile, tablet, and desktop widths. |
+| Accessibility audit | Audit was run, issues were identified, and fixes are visible in the code (labels, alt text, contrast, keyboard nav). |
+| Security audit | No committed secrets; input is validated/sanitized server-side; parameterized queries; CORS scoped correctly. |
+| Lighthouse score | Deployed site scores well across Performance, Accessibility, Best Practices, and SEO; low scores were investigated and addressed. |
+| README & documentation | README clearly explains the project, stack, and setup; a newcomer could understand and run the project from it alone. |
+| Code understanding | Student can explain any part of the codebase when asked — architecture, a specific function, or a design decision — regardless of whether an AI agent wrote it. |
+
+---
+
+## 🌟 Stretch Goals (Optional)
+
+Finished the main requirements? Here are some bonus challenges:
+
+- 🏆 Upvote product suggestions
+- 🏆 Add a hamburger menu in mobile view
+- 🏆 Sort suggestions by most/least upvotes and most/least comments
+- 🏆 Edit an existing suggestion
+- 🏆 Delete an existing suggestion
+- 🏆 Add comments to an existing suggestion
+- 🏆 Implement multi-filtering
