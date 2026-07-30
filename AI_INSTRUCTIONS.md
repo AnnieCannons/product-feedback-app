@@ -59,7 +59,7 @@ Submit the following to the LMS:
 4. **Lighthouse score** (screenshot or exported report — see Milestone 9)
 5. **A robust README** with full project documentation (see Milestone 10)
 6. **AI usage log** — a short section in your README, or a separate `AI_LOG.md`, noting which tool(s) you used and roughly what you prompted for at each milestone. 
-7. **Code walkthrough readiness** — no separate deliverable, but read through your code thoroughly to understand it as if you were going to present it to your team at work.
+7. **Present a piece of your project** — meet with your instructor Thursday at the start of Block A to decide what you'll present, then present it in Block C or D (live demo or code walkthrough, depending on what you built). Read through your code thoroughly beforehand — be ready to speak to what you built, how it differed from writing the code yourself, what was challenging, and other thoughts you have about learning this new tool (see Milestone 11).
 
 ---
 
@@ -190,6 +190,16 @@ Your README should explain what your project is about, its tech stack, how to ru
 
 ---
 
+### 🎯 Milestone 11: Present your project
+
+1. **Thursday, start of Block A:** meet with your instructor to decide what piece of your project you'll present. Come with an idea if you have one — a feature, a tricky bug you chased down, a design decision — or figure it out together in the conversation.
+2. **Blocks C and D:** give your presentation.
+   - If what you're presenting is visual (frontend, a UI flow), do a live demo.
+   - If it's backend/database work with nothing to click through, walk through the code instead.
+   - Either way, be ready to speak to: what you built, what was different about building it this way versus writing the code yourself, what was challenging, and what's exciting to you about working with this tool.
+
+---
+
 ### 🎯 Final Milestone: Submit
 
 1. Push your final code to Github.
@@ -220,7 +230,7 @@ Your README should explain what your project is about, its tech stack, how to ru
 | Security audit | No committed secrets; input is validated/sanitized server-side; parameterized queries; CORS scoped correctly. |
 | Lighthouse score | Deployed site scores well across Performance, Accessibility, Best Practices, and SEO; low scores were investigated and addressed. |
 | README & documentation | README clearly explains the project, stack, and setup; a newcomer could understand and run the project from it alone. |
-| Code understanding | Student can explain any part of the codebase when asked — architecture, a specific function, or a design decision — regardless of whether an AI agent wrote it. |
+| Code understanding & presentation | Student can explain any part of the codebase when asked — architecture, a specific function, or a design decision — regardless of whether an AI agent wrote it. Demonstrated live in the Block C/D presentation. |
 
 ---
 
