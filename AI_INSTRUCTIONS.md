@@ -10,7 +10,7 @@ _My Company_ wants you to build a Product Feedback application, where customers 
 
 ![image](https://github.com/user-attachments/assets/5fabe48e-fb2b-4337-94cc-515e64a0bf66)
 
-**This is the AI-assisted track of the same project.** The end result — a deployed, working Product Feedback app matching the requirements below — is identical to the standard track. What's different is *how* you get there: instead of hand-writing every line, you'll direct an AI coding agent (e.g. the agent built into your IDE) through a Product Requirements Document (PRD), then take full ownership of testing, fixing, and auditing what it produces.
+**For this project, you will use both chat bots and an AI coding agent.** The end result — will be a deployed, working Product Feedback app matching the requirements below. But, instead of hand-writing every line, you'll direct an AI coding agent (e.g. the agent built into your IDE) through a Product Requirements Document (PRD), then take full ownership of testing, fixing, and auditing what it produces.
 
 **The AI agent is not a shortcut around understanding your code.** You are still responsible for every line that ships — you should be able to explain any part of it on request.
 
@@ -56,8 +56,8 @@ Submit the following to the LMS:
 1. **Your PRD** (as a doc link or a file in your repo)
 2. **Link to your Github repo**
 3. **Link to your deployment** (frontend URL — include your Render API URL and Neon project name in your README)
-4. **Lighthouse score** (screenshot or exported report — see Milestone 8)
-5. **A robust README** with full project documentation (see Milestone 9)
+4. **Lighthouse score** (screenshot or exported report — see Milestone 9)
+5. **A robust README** with full project documentation (see Milestone 10)
 6. **AI usage log** — a short section in your README, or a separate `AI_LOG.md`, noting which tool(s) you used and roughly what you prompted for at each milestone. 
 7. **Code walkthrough readiness** — no separate deliverable, but read through your code thoroughly to understand it as if you were going to present it to your team at work.
 
@@ -117,7 +117,7 @@ Don't ask the agent to build the whole app in one shot. Work through it in the s
    Test every endpoint yourself in Postman — don't trust the agent's claim that it works. Push to Github.
 3. **Frontend** — have the agent build the Home and AddFeedback pages per your PRD and the Figma designs. Push to Github.
 
-Commit and push after each stage, not just at the end — you want a history you can point to if something breaks.
+**Commit and push after each stage, not just at the end** — you want a history you can point to if something breaks.
 
 ---
 
@@ -130,20 +130,40 @@ Test every user flow yourself, manually, in the browser:
 - Submitting a new suggestion, including form validation (missing fields, invalid input)
 - Refresh the page and check your database directly to confirm data is actually persisting
 
-Log any bugs you find — you'll fix them in the next step.
+Log 3–5 bugs as GitHub Issues as you find them, not batched at the end — repro steps are easiest to capture in the moment. Keep each one to 3 lines:
+- What you did
+- What you expected
+- What happened instead
+
+Screenshot only if it's a UI bug. Label each issue `backend` or `frontend` — you'll fix the backend ones in Milestone 6 and the frontend ones in Milestone 7.
+
+**To file an issue:** on your repo's GitHub page, go to the **Issues** tab → **New issue** → title it with the short symptom, paste in the 3 lines as the description, then add the `backend` or `frontend` label from the sidebar before submitting.
+
+You don't need to submit these separately — your instructor can see them from the Issues tab on the Github repo link you're already submitting.
 
 ---
 
-### 🎯 Milestone 6: Fix the UI
+### 🎯 Milestone 6: Debug and fix backend/API issues
+
+Work through the bug log from Milestone 5. Fix anything that traces back to your API or database — not just the symptom you saw in the UI:
+- Re-test each fixed endpoint in Postman to confirm the fix, not just whatever the agent claims in its output
+- Re-check that data is actually persisting to the database correctly after your fix
+- If a bug traces back to an ambiguous or incomplete part of your PRD, fix the PRD too — that's a sign the agent guessed wrong because the spec left room to
+
+Commit fixes separately from your UI fixes in the next milestone, so your history shows what layer each fix touched.
+
+---
+
+### 🎯 Milestone 7: Fix the UI
 
 Compare your rendered app side-by-side with the [Figma designs](https://www.figma.com/design/vxjX8SdBOt21DCD14mrBM9/Product-Feedback-App-Design?node-id=0-1&t=OH1BSnaLrvNeWMlQ-1). AI-generated UI code frequently drifts from spacing, color, and responsive-behavior specs — fix any mismatches, and check your layout at mobile, tablet, and desktop widths.
 
 ---
 
-### 🎯 Milestone 7: Accessibility and security audits
+### 🎯 Milestone 8: Accessibility and security audits
 
 **Accessibility audit:**
-- Run Lighthouse's Accessibility check (or the axe browser extension) against both pages
+- Run Lighthouse's Accessibility check (or the axe browser extension) against your local build, for both pages
 - Check for: alt text on images, proper form labels, sufficient color contrast, keyboard navigability, semantic HTML
 - Fix what you find
 
@@ -155,16 +175,16 @@ Compare your rendered app side-by-side with the [Figma designs](https://www.figm
 
 ---
 
-### 🎯 Milestone 8: Deploy and run Lighthouse
+### 🎯 Milestone 9: Deploy and run Lighthouse
 
 1. Deploy your server/API to Render and your frontend to Netlify. Use the [Render deployment guide](https://github.com/AnnieCannons/countries-app-instructions/blob/main/version-5/deploy-server-to-render.md).
 2. Re-test all user flows against your live, deployed URLs (not just localhost).
-3. Run Lighthouse against your deployed frontend (Chrome DevTools → Lighthouse tab). Save the report or a screenshot of the scores (Performance, Accessibility, Best Practices, SEO) — this is one of your deliverables.
+3. Re-run Lighthouse against your deployed frontend (Chrome DevTools → Lighthouse tab). Save the report or a screenshot of the scores (Performance, Accessibility, Best Practices, SEO) — this is one of your deliverables.
 4. If your Performance or Accessibility score is low, go back and fix what Lighthouse flags before submitting.
 
 ---
 
-### 🎯 Milestone 9: Write your README
+### 🎯 Milestone 10: Write your README
 
 Your README should explain what your project is about, its tech stack, how to run it locally, and links to your live deployment. Use the [README.md template](https://github.com/AnnieCannons/countries-app-instructions/blob/main/version-5/write-your-README.md) as a starting point. If you're keeping an AI usage log, link or embed it here too.
 
@@ -183,7 +203,8 @@ Your README should explain what your project is about, its tech stack, how to ru
 2. **Review every diff before accepting it.** Don't accept agent-generated code you haven't read and understood. If you can't explain what a block of code does, stop and ask the agent to explain it before moving on.
 3. **Work in small stages, like the milestones above.** Asking for the whole app at once makes broken output much harder to debug.
 4. **Commit often.** A clean commit history per milestone makes it easy to isolate when something broke.
-5. **You should understand the project and be working on how to write better prompts.** You are working with the AI, it is not working for you.
+5. **Git workflow:** commit and push directly to `main` for Milestones 2 and 4 (nothing exists yet to conflict with). Starting with Milestone 6, branch, open a PR to yourself, and merge — for Milestones 6 through 9, writing a real PR description and reading your full diff one more time before it hits `main` mirrors real code-review workflow, and it's often where you catch something the agent got wrong. Your README (Milestone 10) is low-risk enough to commit straight to `main`.
+6. **You should understand the project and be working on how to write better prompts.** You are working with the AI, it is not working for you.
 
 ---
 
@@ -214,3 +235,4 @@ Finished the main requirements? Here are some bonus challenges:
 - 🏆 Delete an existing suggestion
 - 🏆 Add comments to an existing suggestion
 - 🏆 Implement multi-filtering
+- 🏆 Add loading and error states for data fetching (spinner while loading, friendly message on a failed request)
