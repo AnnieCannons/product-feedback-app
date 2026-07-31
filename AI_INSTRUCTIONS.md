@@ -145,6 +145,8 @@ You don't need to submit these separately — your instructor can see them from 
 
 ### 🎯 Milestone 6: Debug and fix backend/API issues
 
+**Before you start:** create a new branch off `main` for this milestone's fixes (e.g. `fix/backend-bugs`).
+
 Work through the bug log from Milestone 5. Fix anything that traces back to your API or database — not just the symptom you saw in the UI:
 - Re-test each fixed endpoint in Postman to confirm the fix, not just whatever the agent claims in its output
 - Re-check that data is actually persisting to the database correctly after your fix
@@ -152,15 +154,23 @@ Work through the bug log from Milestone 5. Fix anything that traces back to your
 
 Commit fixes separately from your UI fixes in the next milestone, so your history shows what layer each fix touched.
 
+**When you're done:** open a PR from your branch back to `main`, write a real PR description, read your full diff one more time, then merge.
+
 ---
 
 ### 🎯 Milestone 7: Fix the UI
 
+**Before you start:** create a new branch off `main` for this milestone's fixes (e.g. `fix/ui`).
+
 Compare your rendered app side-by-side with the [Figma designs](https://www.figma.com/design/vxjX8SdBOt21DCD14mrBM9/Product-Feedback-App-Design?node-id=0-1&t=OH1BSnaLrvNeWMlQ-1). AI-generated UI code frequently drifts from spacing, color, and responsive-behavior specs — fix any mismatches, and check your layout at mobile, tablet, and desktop widths.
+
+**When you're done:** open a PR from your branch back to `main`, write a real PR description, read your full diff one more time, then merge.
 
 ---
 
 ### 🎯 Milestone 8: Accessibility and security audits
+
+**Before you start:** create a new branch off `main` for this milestone's fixes (e.g. `fix/a11y-security`).
 
 **Accessibility audit:**
 - Run Lighthouse's Accessibility check (or the axe browser extension) against your local build, for both pages
@@ -173,14 +183,20 @@ Compare your rendered app side-by-side with the [Figma designs](https://www.figm
 - Confirm your database queries use parameterized queries, not raw string concatenation, to prevent SQL injection
 - Check CORS is configured to your actual frontend origin, not left wide open
 
+**When you're done:** open a PR from your branch back to `main`, write a real PR description, read your full diff one more time, then merge.
+
 ---
 
 ### 🎯 Milestone 9: Deploy and run Lighthouse
+
+**Before you start:** create a new branch off `main` for this milestone's fixes (e.g. `fix/deploy-lighthouse`).
 
 1. Deploy your server/API to Render and your frontend to Netlify. Use the [Render deployment guide](https://github.com/AnnieCannons/countries-app-instructions/blob/main/version-5/deploy-server-to-render.md).
 2. Re-test all user flows against your live, deployed URLs (not just localhost).
 3. Re-run Lighthouse against your deployed frontend (Chrome DevTools → Lighthouse tab). Save the report or a screenshot of the scores (Performance, Accessibility, Best Practices, SEO) — this is one of your deliverables.
 4. If your Performance or Accessibility score is low, go back and fix what Lighthouse flags before submitting.
+
+**When you're done:** open a PR from your branch back to `main`, write a real PR description, read your full diff one more time, then merge.
 
 ---
 
@@ -213,7 +229,7 @@ Your README should explain what your project is about, its tech stack, how to ru
 2. **Review every diff before accepting it.** Don't accept agent-generated code you haven't read and understood. If you can't explain what a block of code does, stop and ask the agent to explain it before moving on.
 3. **Work in small stages, like the milestones above.** Asking for the whole app at once makes broken output much harder to debug.
 4. **Commit often.** A clean commit history per milestone makes it easy to isolate when something broke.
-5. **Git workflow:** commit and push directly to `main` for Milestones 2 and 4 (nothing exists yet to conflict with). Starting with Milestone 6, branch, open a PR to yourself, and merge — for Milestones 6 through 9, writing a real PR description and reading your full diff one more time before it hits `main` mirrors real code-review workflow, and it's often where you catch something the agent got wrong. Your README (Milestone 10) is low-risk enough to commit straight to `main`.
+5. **Git workflow:** commit and push directly to `main` for Milestones 2 and 4 (nothing exists yet to conflict with). Starting with Milestone 6, each milestone gets its own branch and its own PR back to `main` (see the "Before you start" / "When you're done" steps in Milestones 6-9) — writing a real PR description and reading your full diff one more time before it hits `main` mirrors real code-review workflow, and it's often where you catch something the agent got wrong. Your README (Milestone 10) is low-risk enough to commit straight to `main`.
 6. **You should understand the project and be working on how to write better prompts.** You are working with the AI, it is not working for you.
 
 ---
